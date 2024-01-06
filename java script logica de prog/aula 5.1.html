@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //funçoes
+        function testes(){
+            //exceutado quando chamar a função
+            console.log('chamando a função testes');
+        }
+
+        function testes2(nome, idade){
+            console.log('O nome passado é:'+nome);
+            console.log('a idade passada é:'+idade);
+            console.log('--------');
+        }
+
+        function pegarNome(param){
+            if(param == 1){
+                return "junin";
+            }
+            else{
+                return 'outro nome';
+            }
+           
+
+        }
+        var nome = pegarNome(1);
+        console.log(nome)
+        
+       
+    </script>
+</body>
+</html>
